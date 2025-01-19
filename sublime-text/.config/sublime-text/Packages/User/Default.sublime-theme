@@ -1,0 +1,206 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+		"font_face": "JetBrainsMonoNL Nerd Font Mono",
+		"font_size_sm": 14,
+		"font_size": 12,
+		"font_size_lg": 13,
+		"font_size_title": 24,
+
+		"base_hue": "hsl(215, 10%, 50%)",
+		"base_tint": "black",
+
+		"ui_bg": "color(var(base_hue) l(93%))",
+		"text_fg": "hsl(0, 0%, 25%)",
+		"link_fg": "hsl(215, 45%, 40%)",
+
+		"label_color": "var(text_fg)",
+
+		"icon_tint": "var(base_tint)",
+		"shape_tint": "var(base_tint)",
+
+		"button_bg": "color(var(base_hue) l(95%))",
+
+		"scroll_bar_bg": "hsl(0, 0%, 30%)",
+		"scroll_bar_puck_bg": "hsl(0, 0%, 30%)",
+
+		"scroll_bar_dark_bg": "white",
+		"scroll_bar_puck_dark_bg": "white",
+
+		"button_label_color": "var(label_color)",
+		"button_label_shadow": "color(white a(0.5))",
+
+		"sidebar_bg": "var(ui_bg)",
+		"sidebar_row_selected": "color(var(base_hue) l(80%))",
+
+		"sidebar_heading": "hsl(0, 0%, 50%)",
+		"sidebar_heading_shadow": "color(white a(0.36))",
+		"sidebar_label": "hsl(0, 0%, 20%)",
+		"sidebar_label_selected": "hsl(0, 0%, 5%)",
+		"sidebar_label_ignored": "hsl(0, 0%, 60%)",
+
+		"sidebar_button_tint": "color(var(shape_tint) a(40%))",
+		"sidebar_button_new_tint": "color(var(--greenish) min-contrast(var(sidebar_bg) 2.5))",
+		"sidebar_button_modified_tint": "color(var(shape_tint) a(40%))",
+		"sidebar_button_deleted_tint": "color(var(--redish) min-contrast(var(sidebar_bg) 2.5))",
+		"sidebar_button_opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+		"sidebar_button_hover_opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
+		"sidebar_close_button_opacity": { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
+		"sidebar_close_button_hover_opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+
+		"sidebar_scroll_bar_bg": "color(var(base_hue) s(+ 5%) l(20%))",
+		"sidebar_scroll_bar_puck_bg": "color(var(base_hue) s(+ 5%) l(30%))",
+
+		"vcs_untracked": "grey",
+		"vcs_modified": "color(var(--bluish) min-contrast(var(sidebar_bg) 2.5))",
+		"vcs_missing": "color(var(--redish) min-contrast(var(sidebar_bg) 2.5))",
+		"vcs_staged": "color(var(--bluish) min-contrast(var(sidebar_bg) 2.5))",
+		"vcs_added": "color(var(--greenish) min-contrast(var(sidebar_bg) 2.5))",
+		"vcs_deleted": "color(var(--redish) min-contrast(var(sidebar_bg) 2.5))",
+		"vcs_unmerged": "color(var(--orangish) min-contrast(var(sidebar_bg) 2.5))",
+
+		"switch_project_bg": "var(ui_bg)",
+
+		"panel_bg": "color(var(base_hue) l(80%))",
+
+		"progress_bar_bg": "color(var(base_tint) a(0.06))",
+		"progress_bar_fg": "color(var(base_hue) l(70%))",
+
+		"dialog_bg": "var(ui_bg)",
+		"dialog_button_bg": "color(var(base_hue) l(70%))",
+
+		"icon_button_highlight": "color(var(base_hue) l(90%))",
+
+		"tool_tip_bg": "white",
+		"tool_tip_fg": "var(text_fg)",
+
+		"tabset_button_opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+		"tabset_new_tab_button_opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+		"tabset_button_hover_opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+		"tabset_button_light_tint": "color(black a(0.5))",
+
+		"tabset_dark_tint_mod": "color(white a(0.28))",
+		"tabset_dark_bg": "color(var(--background) blend(white 72%))",
+		"tabset_medium_dark_tint_mod": "color(white a(0.32))",
+		"tabset_medium_dark_bg": "color(var(--background) blend(white 68%))",
+		"tabset_medium_tint_mod": "color(black a(0.36))",
+		"tabset_medium_bg": "color(var(--background) blend(black 64%))",
+		"tabset_light_tint_mod": "color(black a(0.25))",
+		"tabset_light_bg": "color(var(--background) blend(black 75%))",
+
+		"file_tab_angled_unselected_dark_tint": "color(white a(0.12))",
+		"file_tab_angled_unselected_medium_dark_tint": "color(white a(0.12))",
+		"file_tab_angled_unselected_medium_tint": "color(black a(0.18))",
+		"file_tab_angled_unselected_light_tint": "color(black a(0.12))",
+
+		"file_tab_selected_dark_tint": "color(var(tabset_dark_tint_mod) a(- 80%))",
+		"file_tab_selected_medium_dark_tint": "color(var(tabset_medium_dark_tint_mod) a(- 85%))",
+		"file_tab_selected_medium_tint": "color(var(tabset_medium_tint_mod) a(- 85%))",
+		"file_tab_selected_light_tint": "color(var(tabset_light_tint_mod) a(- 85%))",
+
+		"file_tab_angled_unselected_label_color": "hsl(0, 0%, 60%)",
+		"file_tab_angled_unselected_label_shadow": "color(black a(0.25))",
+		"file_tab_angled_unselected_medium_label_color": "hsl(0, 0%, 75%)",
+		"file_tab_angled_unselected_medium_label_shadow": "color(black a(0.12))",
+		"file_tab_angled_unselected_light_label_color": "hsl(0, 0%, 45%)",
+		"file_tab_angled_unselected_light_label_shadow": "color(white a(0.25))",
+
+		"file_tab_unselected_label_color": "white",
+		"file_tab_unselected_light_label_color": "hsl(0, 0%, 20%)",
+		"file_tab_selected_label_color": "white",
+		"file_tab_selected_light_label_color": "hsl(0, 0%, 20%)",
+
+		"file_tab_highlight_new_tint": "var(--greenish)",
+		"file_tab_highlight_deleted_tint": "var(--redish)",
+
+		"file_tab_close_dark_tint": "color(white a(50%))",
+		"file_tab_close_dark_new_tint": "var(--greenish)",
+		"file_tab_close_dark_modified_tint": "color(white a(50%))",
+		"file_tab_close_dark_deleted_tint": "var(--redish)",
+		"file_tab_close_light_tint": "color(black a(0.5))",
+		"file_tab_close_light_new_tint": "var(--greenish)",
+		"file_tab_close_light_modified_tint": "color(black a(50%))",
+		"file_tab_close_light_deleted_tint": "var(--redish)",
+
+		"file_tab_close_opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
+		"file_tab_close_hover_opacity": { "target": 0.9, "speed": 4.0, "interpolation": "smoothstep" },
+		"file_tab_close_selected_opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+		"file_tab_close_selected_hover_opacity": { "target": 1, "speed": 4.0, "interpolation": "smoothstep" },
+
+		"sheet_dark_modifier": "blend(var(tabset_dark_bg) 80%)",
+		"sheet_medium_dark_modifier": "blend(var(tabset_medium_dark_bg) 85%)",
+		"sheet_medium_modifier": "blend(var(tabset_medium_bg) 85%)",
+		"sheet_light_modifier": "blend(var(tabset_light_bg) 85%)",
+
+		"text_widget_dark_modifier": "l(- 5%)",
+		"text_widget_light_modifier": "l(- 5%)",
+
+		"overlay_bg": "color(var(base_hue) l(90%))",
+
+		"quick_panel_label_color": "color(var(base_hue) l(30%))",
+		"quick_panel_path_label_color": "color(var(base_hue) l(50%))",
+		"quick_panel_matched_label_color": "black",
+		"quick_panel_matched_path_label_color": "color(var(base_hue) l(40%))",
+
+		"quick_panel_selected_row_bg": "color(var(base_hue) l(80%))",
+		"quick_panel_selected_label_color": "color(var(base_hue) l(20%))",
+		"quick_panel_selected_path_label_color": "color(var(base_hue) l(40%))",
+		"quick_panel_selected_matched_label_color": "var(quick_panel_matched_label_color)",
+		"quick_panel_selected_matched_path_label_color": "color(var(base_hue) l(30%))",
+
+		"quick_panel_link_color": "var(link_fg)",
+
+		"viewport_always_visible_color": "hsla(0, 0%, 50%, 0.18)",
+		"viewport_hide_show_color": "hsla(0, 0%, 50%, 0.25)",
+
+		"auto_complete_bg_dark_tint": "color(white a(0.05))",
+		"auto_complete_bg_light_tint": "color(black a(0.05))",
+
+		"auto_complete_selected_row_dark_tint": "color(white a(0.2))",
+		"auto_complete_selected_row_light_tint": "color(black a(0.15))",
+
+		"auto_complete_text_dark_tint": "color(white a(0.18))",
+		"auto_complete_text_light_tint": "color(black a(0.18))",
+
+		"auto_complete_detail_pane_dark_tint": "color(black a(0.1))",
+		"auto_complete_detail_pane_light_tint": "color(white a(0.1))",
+
+		"auto_complete_detail_panel_mono_dark_bg": "color(white a(0.12))",
+		"auto_complete_detail_panel_mono_light_bg": "color(black a(0.08))",
+
+		"kind_function_color": "var(--redish)",
+		"kind_keyword_color": "var(--pinkish)",
+		"kind_markup_color": "var(--orangish)",
+		"kind_namespace_color": "var(--bluish)",
+		"kind_navigation_color": "var(--yellowish)",
+		"kind_snippet_color": "var(--greenish)",
+		"kind_type_color": "var(--purplish)",
+		"kind_variable_color": "var(--cyanish)",
+
+		"kind_name_label_border_color": "color(var(--accent) a(0.8))",
+
+		"icon_opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+		"icon_hover_opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" },
+
+		"status_bar_bg": "color(var(base_hue) l(80%))",
+		"status_bar_label_color": "var(text_fg)",
+		"status_bar_icon_tint": "color(var(status_bar_label_color) a(0.8))",
+		"status_bar_label_shadow": "color(white a(0.18))",
+
+		"radio_back": "white",
+		"radio_border-unselected": "#a6a6a6",
+		"radio_selected": "color(var(--bluish) l(- 10%))",
+		"radio_border-selected": "color(var(--bluish) l(- 10%))",
+
+		"checkbox_back": "white",
+		"checkbox_border-unselected": "#a6a6a6",
+		"checkbox_selected": "color(var(--bluish) l(- 10%))",
+		"checkbox_border-selected": "color(var(--bluish) l(- 10%))",
+		"checkbox-disabled": "#a6a6a6",
+	},
+	"rules":
+	[
+		
+	]
+}
