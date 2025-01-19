@@ -127,6 +127,11 @@ button:hover {
     margin-left: 8px;
 }
 
+#custom-wofi:hover {
+    background-color: #41a6b5;
+    color: #24283b;
+}
+
 #custom-power {
     background-color: #1f2335;
     color: #a9b1d6;
