@@ -1,0 +1,3 @@
+ble-color-setface auto_complete fg=67,bg=transparent,italic
+ble-color-setface syntax_error fg=160,bg=transparent
+ble-color-setface syntax_history_expansion fg=231,bg=transparent

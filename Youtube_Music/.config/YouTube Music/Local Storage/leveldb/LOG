@@ -1,3 +1,9 @@
-2025/01/20-02:00:33.654 7c3b Reusing MANIFEST /home/retro/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
-2025/01/20-02:00:33.679 7c3b Recovering log #18
-2025/01/20-02:00:33.679 7c3b Reusing old log /home/retro/.config/YouTube Music/Local Storage/leveldb/000018.log 
+2025/01/20-17:25:54.087 c59 Reusing MANIFEST /home/retro/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2025/01/20-17:25:54.098 c59 Recovering log #18
+2025/01/20-17:25:54.105 c59 Reusing old log /home/retro/.config/YouTube Music/Local Storage/leveldb/000018.log 
+2025/01/20-19:10:27.836 c5a Level-0 table #23: started
+2025/01/20-19:10:27.846 c5a Level-0 table #23: 12677 bytes OK
+2025/01/20-19:10:27.865 c5a Delete type=0 #18
+2025/01/20-19:58:16.116 c5a Level-0 table #25: started
+2025/01/20-19:58:16.132 c5a Level-0 table #25: 12325 bytes OK
+2025/01/20-19:58:16.151 c5a Delete type=0 #22
