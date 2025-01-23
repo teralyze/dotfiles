@@ -1,12 +1,12 @@
-2025/01/20-17:25:55.302 c6b Reusing MANIFEST /home/retro/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/01/20-17:25:55.306 c6b Recovering log #37
-2025/01/20-17:25:55.341 c6b Reusing old log /home/retro/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000037.log 
-2025/01/20-19:00:52.423 c5a Level-0 table #43: started
-2025/01/20-19:00:52.445 c5a Level-0 table #43: 1391776 bytes OK
-2025/01/20-19:00:52.465 c5a Delete type=0 #37
-2025/01/20-19:12:53.857 c6b Compacting 1@1 + 1@2 files
-2025/01/20-19:12:53.875 c6b Generated table #44@1: 704 keys, 46915 bytes
-2025/01/20-19:12:53.876 c6b Compacted 1@1 + 1@2 files => 46915 bytes
-2025/01/20-19:12:53.894 c6b compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/01/20-19:12:53.894 c6b Delete type=2 #40
-2025/01/20-19:12:53.894 c6b Delete type=2 #43
+2025/01/22-23:02:46.959 cb8 Reusing MANIFEST /home/retro/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/22-23:02:46.961 cb8 Recovering log #42
+2025/01/22-23:02:47.006 cb8 Reusing old log /home/retro/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000042.log 
+2025/01/22-23:03:16.236 cba Level-0 table #47: started
+2025/01/22-23:03:16.276 cba Level-0 table #47: 1250529 bytes OK
+2025/01/22-23:03:16.300 cba Delete type=0 #42
+2025/01/22-23:15:31.995 cbd Compacting 1@1 + 1@2 files
+2025/01/22-23:15:32.018 cbd Generated table #48@1: 740 keys, 53080 bytes
+2025/01/22-23:15:32.018 cbd Compacted 1@1 + 1@2 files => 53080 bytes
+2025/01/22-23:15:32.037 cbd compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/22-23:15:32.037 cbd Delete type=2 #44
+2025/01/22-23:15:32.037 cbd Delete type=2 #47
