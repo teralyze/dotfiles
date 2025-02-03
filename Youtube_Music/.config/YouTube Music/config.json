@@ -1,6 +1,6 @@
 {
 	"window-size": {
-		"width": 941,
+		"width": 1896,
 		"height": 1026
 	},
 	"window-maximized": false,
@@ -8,7 +8,7 @@
 		"x": 12,
 		"y": 42
 	},
-	"url": "https://music.youtube.com/watch?v=ro15aM2UeI0&list=RDAMVMBX27kva5HlA&index=0",
+	"url": "https://music.youtube.com/watch?v=EfGyZbgIkbs&list=RDAMVM5Juz3OOTVII&index=0",
 	"options": {
 		"tray": false,
 		"appVisible": true,
@@ -57,7 +57,11 @@
 			"enabled": false
 		},
 		"crossfade": {
-			"enabled": false
+			"enabled": true,
+			"fadeInDuration": 5000,
+			"fadeOutDuration": 5000,
+			"secondsBeforeEnd": 4,
+			"fadeScaling": "linear"
 		},
 		"blur-nav-bar": {
 			"enabled": false
@@ -155,13 +159,13 @@
 			}
 		},
 		"downloader": {
-			"enabled": true
+			"enabled": false
 		},
 		"synced-lyrics": {
 			"enabled": true
 		},
 		"picture-in-picture": {
-			"enabled": true,
+			"enabled": false,
 			"alwaysOnTop": true,
 			"savePosition": true,
 			"saveSize": false,
@@ -181,6 +185,15 @@
 			"enabled": true
 		},
 		"album-color-theme": {
+			"enabled": true
+		},
+		"adblocker": {
+			"enabled": false
+		},
+		"lumiastream": {
+			"enabled": true
+		},
+		"shortcuts": {
 			"enabled": true
 		}
 	},

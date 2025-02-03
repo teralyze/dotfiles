@@ -1,27 +1,28 @@
 * {
-	border-radius: 5px;
+	border-radius: 10px;
+  border: 2px #ff007c;
 }
 
 window {
 	font-size: 22px;
 	font-family: "JetBrainsMono Nerd Font Mono";
-	background-color: #32364d;
-	color: white;
-
+	background-color: #414868;
+	color: #7aa2f7;
+  
 }
 
 #entry:selected {
-	background-color: #00a3ff;
+	background-color: #41a6b5;
 }
 
 #text:selected {
-	color: #32364d;
+	color: #24283b;
 }
 
 #input {
-	padding: 5px;
-	padding-: #1e242e;
-	background-color: #32364d;
+	padding: 7px;
+	padding-: #4fd6be;
+	background-color: #3b4261;
 	color: #ffffff;
 }
 

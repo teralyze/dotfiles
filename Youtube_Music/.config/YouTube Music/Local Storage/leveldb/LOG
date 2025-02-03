@@ -1,15 +1,6 @@
-2025/01/22-23:02:43.496 cba Reusing MANIFEST /home/retro/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
-2025/01/22-23:02:43.535 cba Recovering log #27
-2025/01/22-23:02:43.536 cba Reusing old log /home/retro/.config/YouTube Music/Local Storage/leveldb/000027.log 
-2025/01/22-23:45:46.886 cba Level-0 table #31: started
-2025/01/22-23:45:46.896 cba Level-0 table #31: 12419 bytes OK
-2025/01/22-23:45:46.914 cba Delete type=0 #27
-2025/01/22-23:45:46.915 cba Compacting 4@0 + 1@1 files
-2025/01/22-23:45:46.925 cba Generated table #32@0: 10 keys, 979 bytes
-2025/01/22-23:45:46.925 cba Compacted 4@0 + 1@1 files => 979 bytes
-2025/01/22-23:45:46.943 cba compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/01/22-23:45:46.943 cba Delete type=2 #20
-2025/01/22-23:45:46.944 cba Delete type=2 #23
-2025/01/22-23:45:46.944 cba Delete type=2 #25
-2025/01/22-23:45:46.944 cba Delete type=2 #28
-2025/01/22-23:45:46.944 cba Delete type=2 #31
+2025/01/28-23:52:54.944 2148 Reusing MANIFEST /home/retro/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2025/01/28-23:52:54.963 2148 Recovering log #66
+2025/01/28-23:52:54.964 2148 Reusing old log /home/retro/.config/YouTube Music/Local Storage/leveldb/000066.log 
+2025/01/29-00:11:56.576 2149 Level-0 table #70: started
+2025/01/29-00:11:56.586 2149 Level-0 table #70: 14941 bytes OK
+2025/01/29-00:11:56.606 2149 Delete type=0 #66
