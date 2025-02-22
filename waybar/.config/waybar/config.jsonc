@@ -21,6 +21,7 @@
         "network",
         "cpu",
         "memory",
+        "custom/gpu",
         "clock",
         "custom/power"
     ],
@@ -104,10 +105,12 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false
+        "tooltip": false,
+        "interval": 2,
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}% ",
+        "interval": 2,
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -192,7 +195,7 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
     "custom/power": {
-        "format" : " 󰚥 ",
+        "format" : "󰚥",
 		"tooltip": false,
 		"menu": "on-click",
 		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
@@ -202,10 +205,15 @@
         }
 	},
     "custom/wofi": {
-        "format" : " Apps ",
+        "format" : "Apps",
         "tooltip" : true,
         "tooltip-format" : "Launches wofi.",
         "on-click" : "wofi --show=drun",
+        },
+    "custom/gpu": {
+        "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+        "format": "{}% 󰢮",
+        "return-type": "",
+        "interval": 2
         }
-    }
 }

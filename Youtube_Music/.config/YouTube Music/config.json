@@ -1,14 +1,14 @@
 {
 	"window-size": {
-		"width": 1896,
+		"width": 941,
 		"height": 1026
 	},
 	"window-maximized": false,
 	"window-position": {
-		"x": 12,
+		"x": 967,
 		"y": 42
 	},
-	"url": "https://music.youtube.com/watch?v=EfGyZbgIkbs&list=RDAMVM5Juz3OOTVII&index=0",
+	"url": "https://music.youtube.com/watch?v=4MsLlnUm7nM",
 	"options": {
 		"tray": false,
 		"appVisible": true,
@@ -36,8 +36,14 @@
 			"mode": "custom"
 		},
 		"precise-volume": {
-			"globalShortcuts": {},
-			"enabled": true
+			"enabled": true,
+			"steps": 1,
+			"arrowsShortcut": true,
+			"globalShortcuts": {
+				"volumeUp": "",
+				"volumeDown": ""
+			},
+			"savedVolume": 95
 		},
 		"discord": {
 			"listenAlong": true
@@ -57,7 +63,7 @@
 			"enabled": false
 		},
 		"crossfade": {
-			"enabled": true,
+			"enabled": false,
 			"fadeInDuration": 5000,
 			"fadeOutDuration": 5000,
 			"secondsBeforeEnd": 4,

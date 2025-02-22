@@ -81,7 +81,8 @@ button:hover {
     box-shadow: inset 0 -3px #ffffff;
 }
 
-#custom-power
+#custom-gpu,
+#custom-power,
 #custom-wofi,
 #clock,
 #battery,
@@ -261,6 +262,18 @@ label:focus {
     color: #ff007c
 }
 
+#custom-gpu {
+    background-color: #1f2335;
+    color: #7dcfff;
+    border-radius: 9px;
+    margin-top: 4px;
+}
+
+#custom-gpu:hover {
+    background-color: #7aa2f7;
+    color: #24283b;
+}
+
 #pulseaudio {
     background-color: #1f2335;
     color: #ffc777;
@@ -423,3 +436,4 @@ label:focus {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+
