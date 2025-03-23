@@ -1,14 +1,14 @@
 {
 	"window-size": {
 		"width": 941,
-		"height": 1026
+		"height": 506
 	},
 	"window-maximized": false,
 	"window-position": {
-		"x": 12,
-		"y": 42
+		"x": 967,
+		"y": 562
 	},
-	"url": "https://music.youtube.com/watch?v=9tLw2NgECnA",
+	"url": "https://music.youtube.com/watch?v=9OJStAZz1bc&list=RDAMVM9OJStAZz1bc&index=0",
 	"options": {
 		"tray": false,
 		"appVisible": true,
@@ -66,7 +66,7 @@
 			"enabled": false,
 			"fadeInDuration": 5000,
 			"fadeOutDuration": 5000,
-			"secondsBeforeEnd": 4,
+			"secondsBeforeEnd": 5,
 			"fadeScaling": "linear"
 		},
 		"blur-nav-bar": {
@@ -200,7 +200,18 @@
 			"enabled": true
 		},
 		"shortcuts": {
-			"enabled": true
+			"enabled": false,
+			"overrideMediaKeys": true,
+			"global": {
+				"previous": "",
+				"playPause": "",
+				"next": ""
+			},
+			"local": {
+				"previous": "",
+				"playPause": "",
+				"next": ""
+			}
 		}
 	},
 	"__internal__": {

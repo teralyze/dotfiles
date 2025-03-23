@@ -9,13 +9,13 @@
     "modules-left": [
         "custom/wofi",
         "tray",
-        "custom/media"
+        "custom/media",
+        "custom/waybarmpris",
     ],
     "modules-center": [
         "hyprland/workspaces",
     ],
     "modules-right": [
-        "mpd",
         "idle_inhibitor",
         "pulseaudio",
         "network",
@@ -212,8 +212,19 @@
         },
     "custom/gpu": {
         "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
-        "format": "{}% 󰢮",
+        "format": "   {}% 󰢮 ",
         "return-type": "",
-        "interval": 2
-        }
+        "interval": 2,
+        },
+    "custom/waybarmpris": {
+        "return-type": "",
+        "exec": "echo -n $(playerctl --player=qtws metadata title); echo -n ' - '; playerctl --player=qtws metadata artist",
+        "format": " 󰝚  {} 󰝚 ",
+        "on-click": "playerctl --player=qtws play-pause",
+        "on-scroll-up": "playerctl --player=qtws next",
+        "on-scroll-down": "playerctl --player=qtws previous",
+        "interval": 1,
+        "escape": true
+    },
 }
+

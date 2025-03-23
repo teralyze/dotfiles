@@ -1,7 +1,6 @@
 #
 # ~/.bashrc
 #
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -13,6 +12,7 @@ alias pr='sudo pacman -Rns' # /P/acman /R/emove
 alias prr='sudo pacman -Rcs' # /P/acman /R/emove /R/ecursively
 alias ps='sudo pacman -Qs' # /P/acman /S/earch (installed apps)
 alias pq='sudo pacman -Ss' # /P/acman /Q/uery (repos)
+alias compile='./home/retro/compile.sh' # Easy compiling script for C++
 
 # PS1='[\u@\h \W]\$ '
 

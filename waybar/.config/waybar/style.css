@@ -81,6 +81,7 @@ button:hover {
     box-shadow: inset 0 -3px #ffffff;
 }
 
+#custom-waybarmpris
 #custom-gpu,
 #custom-power,
 #custom-wofi,
@@ -436,4 +437,17 @@ label:focus {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+#custom-waybarmpris {
+    background-color: #1f2335;
+    color: #ffc777;
+    border-radius: 9px;
+    margin-top: 4px;
+    margin-left: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
 
+#custom-waybarmpris:hover {
+    background-color: #ffc777;
+    color: #24283b;
+}
