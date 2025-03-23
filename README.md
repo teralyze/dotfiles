@@ -24,7 +24,8 @@ There are some good keybindings on hyprland.conf, make sure to check those out a
 
 ## .bashrc and .blerc
 > [!WARNING]
-> MAKE SURE TO BACK UP YOUR .BASHRC BEFORE YOU USE MINE, I DON'T WANT YOU TO LOSE YOUR CONFIG!!
+> MAKE SURE TO BACK UP YOUR .BASHRC BEFORE YOU USE MINE, I DON'T WANT YOU TO LOSE YOUR CONFIG!
+
 Stow won't add these files to your home so you should move them manually. You'll need to use bash and install ble.sh for these to work as well.
 
 ## GTK and QT themes
