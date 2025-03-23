@@ -1,6 +1,0 @@
-2025/03/23-17:46:35.901 532a Reusing MANIFEST /home/retro/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/23-17:46:35.907 532a Recovering log #203
-2025/03/23-17:46:35.922 532a Reusing old log /home/retro/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000203.log 
-2025/03/23-17:46:42.592 532a Level-0 table #209: started
-2025/03/23-17:46:42.622 532a Level-0 table #209: 1720402 bytes OK
-2025/03/23-17:46:42.643 532a Delete type=0 #203

@@ -1,9 +1,0 @@
-2025/03/23-17:47:20.326 55ce Reusing MANIFEST /home/retro/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/23-17:47:20.327 55ce Recovering log #208
-2025/03/23-17:47:20.327 55ce Reusing old log /home/retro/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000208.log 
-2025/03/23-17:47:23.106 55cd Compacting 1@1 + 1@2 files
-2025/03/23-17:47:23.129 55cd Generated table #211@1: 2041 keys, 85439 bytes
-2025/03/23-17:47:23.129 55cd Compacted 1@1 + 1@2 files => 85439 bytes
-2025/03/23-17:47:23.149 55cd compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/03/23-17:47:23.149 55cd Delete type=2 #206
-2025/03/23-17:47:23.149 55cd Delete type=2 #209

@@ -218,11 +218,11 @@
         },
     "custom/waybarmpris": {
         "return-type": "",
-        "exec": "echo -n $(playerctl --player=qtws metadata title); echo -n ' - '; playerctl --player=qtws metadata artist",
+        "exec": "echo -n $(playerctl metadata title); echo -n ' - '; playerctl metadata artist",
         "format": " 󰝚  {} 󰝚 ",
-        "on-click": "playerctl --player=qtws play-pause",
-        "on-scroll-up": "playerctl --player=qtws next",
-        "on-scroll-down": "playerctl --player=qtws previous",
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl next",
+        "on-scroll-down": "playerctl previous",
         "interval": 1,
         "escape": true
     },
