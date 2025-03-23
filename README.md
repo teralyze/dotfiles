@@ -32,7 +32,7 @@ Stow won't add these files to your home so you should move them manually. You'll
 I use qt5ct, qt6ct, nwg-look and kvantum to manage gtk and qt themes. To change qt themes, download a kvantum theme and apply it using the Kvantum app, and apply it using both qt5ct and qt6ct. I don't even remember how I set my GTK theme, but it should be pretty easy considering that I was able to do it 💀.
 
 ## TMUX
-There isn't much that can go wrong in tmux, but I'd like to mention that I shamelessly copied it from (one of "Dreams of Autonomy"s Youtube videos.)[https://youtu.be/ud7YxC33Z3w?si=xfbSig1uZl9FOVPL]
+There isn't much that can go wrong in tmux, but I'd like to mention that I shamelessly copied it from [one of "Dreams of Autonomy"s Youtube videos.](https://youtu.be/ud7YxC33Z3w?si=xfbSig1uZl9FOVPL)
 
 
 
