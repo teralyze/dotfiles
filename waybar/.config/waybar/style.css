@@ -81,7 +81,8 @@ button:hover {
     box-shadow: inset 0 -3px #ffffff;
 }
 
-#custom-waybarmpris
+#custom-mouse,
+#custom-waybarmpris,
 #custom-gpu,
 #custom-power,
 #custom-wofi,
@@ -126,7 +127,7 @@ button:hover {
     color: #4fd6be;
     border-radius: 9px;
     margin-top: 4px;
-    margin-left: 8px;
+    margin-left: 7px;
 }
 
 #custom-wofi:hover {
@@ -155,7 +156,7 @@ button:hover {
     color: #4fd6be;
     border-radius: 9px;
     margin-top: 4px;
-    margin-right: 0px;   
+    margin-right: 8px;   
 }
 
 #clock:hover {
@@ -326,7 +327,7 @@ label:focus {
     background-color: #2980b9;
     border-radius: 9px;
     margin-top: 4px;
-    margin-left: 11px;
+    margin-left: 4px;
 }
 
 #tray > .passive {
@@ -449,5 +450,20 @@ label:focus {
 
 #custom-waybarmpris:hover {
     background-color: #ffc777;
+    color: #24283b;
+}
+
+#custom-mouse {
+    background-color: #1f2335;
+    color: #7dcfff;
+    border-radius: 9px;
+    margin-top: 4px;
+    margin-left: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#custom-mouse:hover {
+    background-color: #7aa2f7;
     color: #24283b;
 }
