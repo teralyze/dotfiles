@@ -23,10 +23,5 @@ Both Neorg and a markdown renderer are configured and installed in neovim for no
 There are some good keybindings on hyprland.conf, make sure to check those out and see if they work. You can change your wallpaper on hyprpaper.conf, it's in the same directory as hyprland.conf
 
 ## .bashrc and .blerc
-> [!WARNING]
+> [!DANGER]
 > MAKE SURE TO BACK UP YOUR .BASHRC BEFORE YOU USE MINE, I DON'T WANT YOU TO LOSE YOUR CONFIG!
-
-Stow won't add these files to your home so you should move them manually. You'll need to use bash and install ble.sh for these to work as well.
-
-## GTK and QT themes
-I use qt5ct, qt6ct, nwg-look and kvantum to manage gtk and qt themes. To change qt themes, download a kvantum theme and apply it using the Kvantum app, and apply it using both qt5ct and qt6ct. I don't even remember how I set my GTK theme, but it should be pretty easy considering that I was able to do it 💀.
