@@ -9,7 +9,7 @@ just clone the repo and replace the config files that you have with the ones in 
 5. You're done. GG's.
 
 > [!WARNING]
-> Since I wrote these configs, and I don't know what sort of stuff is going on in your PC, things might not work. I've talked about some problems that might happen that came to my mind but if anything is broken just check the config file for the app in question and you should be able to figure it out, or you can DM me on reddit if you're stumped. u/RforRETRO. 
+> Since I wrote these configs, and I don't know what sort of stuff is going on in your PC, things might not work. I've talked about some problems that might happen that came to my mind but if anything is broken just check the config file for the app in question and you should be able to figure it out, or you can DM me on reddit if you're stumped. u/teralyze. 
 
 # Some info about config files
 
