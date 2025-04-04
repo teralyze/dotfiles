@@ -23,5 +23,5 @@ Both Neorg and a markdown renderer are configured and installed in neovim for no
 There are some good keybindings on hyprland.conf, make sure to check those out and see if they work. You can change your wallpaper on hyprpaper.conf, it's in the same directory as hyprland.conf
 
 ## .bashrc and .blerc
-> [!DANGER]
+> [!WARNING]
 > MAKE SURE TO BACK UP YOUR .BASHRC BEFORE YOU USE MINE, I DON'T WANT YOU TO LOSE YOUR CONFIG!
