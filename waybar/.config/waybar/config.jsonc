@@ -88,7 +88,11 @@
         },
     "custom/waybarmpris": {
         "return-type": "",
-        "exec": "echo -n $(playerctl metadata title); echo -n ' - '; playerctl metadata artist",
+        "exec": "if [$(playerctl metadata title) = 'No players found']; then 
+                  exit 
+                else 
+                  echo -n $(playerctl metadata title) '-' $(playerctl metadata artist) '⌜'$(playerctl metadata album)'⌟' 
+                fi",
         "format": " 󰝚  {} 󰝚 ",
         "format-alt": " 󰝚  {}  󰝚 ",
         "on-click": "playerctl play-pause",
@@ -98,7 +102,7 @@
         "escape": true
     },
     "custom/mouse": {
-    "exec": "/home/retro/.battery.py",
+    "exec": "python /home/teralyze/.battery.py",
     "format": "{} 󰍽 ",
     "return-type": "",
     "interval": 60,
