@@ -6,13 +6,13 @@
 window {
 	font-size: 22px;
 	font-family: "JetBrainsMono Nerd Font Mono";
-	background-color: #414868;
-	color: #7aa2f7;
+	background-color: #221918;
+	color: #de0a26;
   
 }
 
 #entry:selected {
-	background-color: #41a6b5;
+	background-color: #de0a26;
 }
 
 #text:selected {
@@ -21,8 +21,8 @@ window {
 
 #input {
 	padding: 7px;
-	padding-: #4fd6be;
-	background-color: #3b4261;
+	padding-: #de0a26;
+	background-color: #221918;
 	color: #ffffff;
 }
 

@@ -49,22 +49,22 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #ffc777;
-    color: #24283b;
+    background-color: #ffffff;
+    color: #1f1717;
 }
 
 #workspaces button {
     padding: 0 5px;
-    background-color: #1f2335;
-    color: #b4f9f8;
+    background-color: #1f1717;
+    color: #de0a26;
     margin-left: 4px;
     margin-top: 4px;
     border-radius: 15px;
 }
 
 #workspaces button:hover {
-    background: #7dcfff;
-    color: #24283b;
+    background: #de0a26;
+    color: #1f1717;
 }
 
 #workspaces button.focused {
@@ -73,7 +73,7 @@ button:hover {
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #de0a26;
 }
 
 #mode {
@@ -123,45 +123,45 @@ button:hover {
 }
 
 #custom-wofi {
-    background-color: #1f2335;
-    color: #4fd6be;
+    background-color: #1f1717;
+    color: #de0a26;
     border-radius: 9px;
     margin-top: 4px;
     margin-left: 7px;
 }
 
 #custom-wofi:hover {
-    background-color: #41a6b5;
-    color: #24283b;
+    background-color: #de0a26;
+    color: #1f1717;
 }
 
 #custom-power {
-    background-color: #1f2335;
-    color: #a9b1d6;
+    background-color: #1f1717;
+    color: #de0a26;
     border-radius: 9px;
     margin-top: 4px;
     margin-right: 6px;   
 }
 
 #custom-power:hover {
-    background-color: #737aa2;
-    color: #24283b;
+    background-color: #de0a26;
+    color: #1f1717;
     border-radius: 9px;
     margin-top: 4px;
     margin-right: 6px;   
 }
 
 #clock {
-    background-color: #1f2335;
-    color: #4fd6be;
+    background-color: #1f1717;
+    color: #ffffff;
     border-radius: 9px;
     margin-top: 4px;
     margin-right: 8px;   
 }
 
 #clock:hover {
-    background-color: #41a6b5;
-    color: #24283b;
+    background-color: #ffffff;
+    color: #1f1717;
 }
 
 #battery {
@@ -216,27 +216,27 @@ label:focus {
 }
 
 #cpu {
-    background-color: #1f2335;
-    color: #7dcfff;
+    background-color: #1f1717;
+    color: #ffffff;
     border-radius: 9px;
     margin-top: 4px;
 }
 
 #cpu:hover {
-    background-color: #7aa2f7;
-    color: #24283b;
+    background-color: #ffffff;
+    color: #1f1717;
 }
 
 #memory {
-    background-color: #1f2335;
-    color: #7dcfff;
+    background-color: #1f1717;
+    color: #ffffff;
     border-radius: 9px;
     margin-top: 4px;
 }
 
 #memory:hover {
-    background-color: #7aa2f7;
-    color: #24283b;
+    background-color: #ffffff;
+    color: #1f1717;
 }
 
 #disk {
@@ -248,37 +248,37 @@ label:focus {
 }
 
 #network {
-    background-color: #1f2335;
-    color: #ff007c;
+    background-color: #1f1717;
+    color: #de0a26;
     border-radius: 9px;
     margin-top: 4px;
 }
 
 #network:hover {
-    background-color: #c53b53;
-    color: #24283b;
+    background-color: #de0a26;
+    color: #1f1717;
 }
 
 #network.disconnected {
-    background-color: #1f2335;
-    color: #ff007c
+    background-color: #1f1717;
+    color: #de0a26
 }
 
 #custom-gpu {
-    background-color: #1f2335;
-    color: #7dcfff;
+    background-color: #1f1717;
+    color: #ffffff;
     border-radius: 9px;
     margin-top: 4px;
 }
 
 #custom-gpu:hover {
-    background-color: #7aa2f7;
-    color: #24283b;
+    background-color: #ffffff;
+    color: #1f1717;
 }
 
 #pulseaudio {
-    background-color: #1f2335;
-    color: #ffc777;
+    background-color: #1f1717;
+    color: #ffffff;
     border-radius: 9px;
     margin-top: 4px;
 
@@ -324,7 +324,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: #de0a26;
     border-radius: 9px;
     margin-top: 4px;
     margin-left: 4px;
@@ -346,25 +346,25 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #1f2335;
-    color: #c53b53;
+    background-color: #1f1717;
+    color: #de0a26;
     border-radius: 9px;
     margin-top: 4px;
 }
 
 #idle_inhibitor.activated {
-    background-color: #1f2335;
-    color: #c3e88d;
+    background-color: #1f1717;
+    color: #de0a26;
 }
 
 #idle_inhibitor:hover {
-    background-color: #c53b53;
-    color: #24283b;
+    background-color: #de0a26;
+    color: #1f1717;
 }
 
 #idle_inhibitor.activated:hover {
-    background-color: #c3e88d;
-    color: #24283b;
+    background-color: #de0a26;
+    color: #1f1717;
 }
 
 #mpd {
@@ -439,8 +439,8 @@ label:focus {
     background-color: #0069d4;
 }
 #custom-waybarmpris {
-    background-color: #1f2335;
-    color: #ffc777;
+    background-color: #1f1717;
+    color: #ffffff;
     border-radius: 9px;
     margin-top: 4px;
     margin-left: 5px;
@@ -449,13 +449,13 @@ label:focus {
 }
 
 #custom-waybarmpris:hover {
-    background-color: #ffc777;
-    color: #24283b;
+    background-color: #ffffff;
+    color: #1f1717;
 }
 
 #custom-mouse {
-    background-color: #1f2335;
-    color: #7dcfff;
+    background-color: #1f1717;
+    color: #de0a26;
     border-radius: 9px;
     margin-top: 4px;
     padding-left: 3px;
@@ -463,6 +463,6 @@ label:focus {
 }
 
 #custom-mouse:hover {
-    background-color: #7aa2f7;
-    color: #24283b;
+    background-color: #de0a26;
+    color: #1f1717;
 }

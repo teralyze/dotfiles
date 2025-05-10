@@ -6,13 +6,13 @@
 
 alias vi='nvim'
 alias viopen='nvim $(fzf -m --preview="bat --color=always {}")'
+alias temps='watch -n 1 ~/.temp.sh'
 
 alias pi='sudo pacman -S' # /P/acman /I/nstall
 alias pr='sudo pacman -Rns' # /P/acman /R/emove
 alias prr='sudo pacman -Rcs' # /P/acman /R/emove /R/ecursively
 alias ps='sudo pacman -Qs' # /P/acman /S/earch (installed apps)
 alias pq='sudo pacman -Ss' # /P/acman /Q/uery (repos)
-alias compile='./home/retro/compile.sh' # Easy compiling script for C++
 
 # PS1='[\u@\h \W]\$ '
 

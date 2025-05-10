@@ -85,6 +85,7 @@
         "format": "{}% 󰢮",
         "return-type": "",
         "interval": 2,
+        "on-click" : "alacritty -e watch -n 1 nvidia-smi"
         },
     "custom/waybarmpris": {
         "return-type": "",
