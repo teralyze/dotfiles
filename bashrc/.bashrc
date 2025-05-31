@@ -6,7 +6,7 @@
 
 alias vi='nvim'
 alias viopen='nvim $(fzf -m --preview="bat --color=always {}")'
-alias temps='watch -n 1 ~/.temp.sh'
+alias temps='watch --color -n 1 ~/.temperatures.sh'
 
 alias pi='sudo pacman -S' # /P/acman /I/nstall
 alias pr='sudo pacman -Rns' # /P/acman /R/emove
