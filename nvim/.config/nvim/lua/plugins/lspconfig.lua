@@ -1,25 +1,36 @@
 return {
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
     lazy = false,
-    config = function()
-      require("mason").setup()
-    end,
+    opts = {}
   },
   {
-    "williamboman/mason-lspconfig.nvim",
+    "mason-org/mason-lspconfig.nvim",
     lazy = false,
     opts = {
-      auto_install = true,
+      ensure_installed = {
+        "lua_ls", "selene", "stylua",
+        "rust_analyzer",
+        "bashls", "shellcheck", "beautysh"
+      },
     },
   },
   {
     "neovim/nvim-lspconfig",
     lazy = false,
     config = function()
-      local lspconfig = require("lspconfig")
-      lspconfig.lua_ls.setup({})
-      lspconfig.rust_analyzer.setup({})
+      vim.lsp.config('rust_analyzer', {
+        settings = {
+          ["rust_analyzer"] = {
+            checkOnSave = {
+              command = "clippy"
+            }
+          }
+        }
+      })
+      vim.lsp.enable("rust_analyzer")
+      vim.lsp.enable("lua_ls")
+      vim.lsp.enable("bashls")
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
